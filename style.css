@@ -870,7 +870,7 @@ padding: 2rem 0 3rem;
 
           /* =====scroll Bar====  */
 ::-webkit-scrollbar{
-    width: 0.60rem;
+    width: .60rem;
     background-color: var(--scroll-bar-color);
     border-radius: .5rem;
 
@@ -923,7 +923,7 @@ padding: 2rem 0 3rem;
 }
 
 /* For medium devices */
-@media screen and (min-width:560px) {
+@media screen and (min-width:568px) {
     .home_content{
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -932,7 +932,7 @@ padding: 2rem 0 3rem;
     }
     .home_img{
         order: 1;
-        justify-content: center;
+        justify-self: center;
     }
     .about_container,.Skills_container,.portfolio_content,.footer_container{
         grid-template-columns: repeat(2,1fr);
@@ -944,7 +944,7 @@ padding: 2rem 0 3rem;
     }
 
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px){
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -969,7 +969,7 @@ padding: 2rem 0 3rem;
         padding: 0 1rem;
     }
     .nav{
-        height: calc(var(--header-height)+1.5rem);
+        height: calc(var(--header-height)+ 1.5rem);
         column-gap: 1rem;
     }
     .nav_icon,.nav_close,.nav_toggle{
