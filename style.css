@@ -676,7 +676,7 @@ img{
     visibility: visible;
 }
 
-/*==================== PORTFOLIO ====================*/
+/*==================== PROJECT  ====================*/
 .portfolio_container{
     overflow: initial;
 }
@@ -714,7 +714,7 @@ img{
 .swiper-button-next{
     right: -.5rem;
 }
-.swiper-container-horizontal> .swiper-pagination-bullets{
+.swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -2.5rem;
 }
 
@@ -1105,7 +1105,7 @@ padding: 2rem 0 3rem;
      .swiper-button-next{
          right:-3.5rem;
      }
-     .swiper-container-horizontal > .swiper-pagination-bullets{
+     .swiper-container-horizontal .swiper-pagination-bullets{
          bottom: -4.5rem;
      }
      .contact_form{

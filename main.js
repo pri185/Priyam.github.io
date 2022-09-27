@@ -91,7 +91,7 @@ modelCloses.forEach((modelClose)=>{
 })
 /*==================== PORTFOLIO SWIPER  ====================*/
 
-let swiper = new swiper("portfolio_container", {
+let swiper = new swiper('.portfolio_container', {
   cssMode: true,
   loop:true,
   navigation: {
@@ -99,11 +99,29 @@ let swiper = new swiper("portfolio_container", {
     prevEl: ".swiper-button-prev",
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: '.swiper-pagination',
     clickable:true,
   },
+//   mousewheel:true,
+//   Keyboard: true,
 });
 
+
+// let swiper = new swiper(".portfolio_container", {
+//     slidesPerView: 1,
+//     spaceBetween: 30,
+//     slidesPerGroup: 2,
+//     loop: true,
+//     loopFillGroupWithBlank: true,
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//   });
 
 /*==================== TESTIMONIAL ====================*/
 
